@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+        }
+        .counter-container{
+            
+            text-align: center;
+            margin-top: 100px;
+        }
+        h2{
+            margin-bottom: 30px;
+        }
+        .counter{
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        .buttons{
+            margin-bottom: 30px;
+           
+        }
+        button{
+            padding: 15px 25px;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+            color: white;
+
+        }
+        button:hover{
+            opacity: 0.8;
+        }
+        input{
+            padding: 15px;
+            width: 220px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="counter-container">
+        <h2>COUNTER APP</h2>
+        <div class="counter">0</div>
+        <div class="buttons">
+            <button onclick="incrament()">Increment</button>
+            <button onclick="decrement()">Decrement</button>
+        </div>
+        <div class="set-value">
+            <input type="number" id="valueInput">
+            <button onclick="setVal()">Set Value Count</button>
+        </div>
+ 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

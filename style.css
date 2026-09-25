@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #252b4a;
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 1000;
+}
+
+
+
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+    padding: 15px;
+
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.login {
+    color: white;
+    text-decoration: none;
+
+    padding: 15px 20px;
+
+    font-size: 14px;
+}
+
+
+.join {
+    color: white;
+    background-color: #2da9e8;
+
+    text-decoration: none;
+
+    padding: 12px 20px;
+
+    border-radius: 3px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+main {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 80px 40px 30px;
+}
+
+
+
+
+.content {
+    width: 50%;
+
+    color: white;
+}
+
+
+.welcome {
+    color: #2da9e8;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-bottom: 35px;
+}
+
+
+.content h1 {
+    font-size: 55px;
+    font-weight: bold;
+
+    line-height: 1.2;
+
+    margin-bottom: 30px;
+}
+
+
+.description {
+    color: #eeeeee;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+}
+
+
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.quote {
+    background-color: #2da9e8;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 25px;
+
+    border-radius: 3px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    margin-right: 10px;
+}
+
+
+.learn {
+    background-color: #2da9e8;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 25px;
+
+    border-radius: 3px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    margin-right: 10px;
+}
+
+
+
+
+
+.images {
+    width: 50%;
+    height: 500px;
+
+    position: relative;
+}
+
+
+
+
+.teacher {
+    width: 350px;
+    height: 420px;
+
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    overflow: hidden;
+
+    border-radius: 3px;
+
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.teacher img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.student {
+    width: 230px;
+    height: 190px;
+
+    position: absolute;
+
+    bottom: 20px;
+    left: 40px;
+
+    overflow: hidden;
+
+    border: 4px solid white;
+
+    border-radius: 5px;
+
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2);
+
+    z-index: 2;
+}
+
+
+.student img {
+    width: 100%;
+    height: 100%;
+}
